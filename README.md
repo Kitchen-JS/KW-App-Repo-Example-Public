@@ -33,6 +33,6 @@ Contents of ./dist gets copied to /content/ when consumed
     "example"
   ],
 "scripts": {
-    "postinstall": "node ../../kitchenwindowsapps.js"
+    "postinstall": "node ./../../kitchenwindowsapps.js"
   },
 ```
