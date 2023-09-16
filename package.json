@@ -1,0 +1,27 @@
+{
+  "name": "kwapprepoexamplepublic",
+  "version": "1.0.0",
+  "description": "An example public repo for a Kitchen Windows App",
+  "kitchen-windows": {
+    "type": "app",
+    "app": {
+      "classFile": "kwapprepoexamplepublic.js"
+    },
+    "payload": {
+      "css": ["dist/css/kwapprepoexamplepublic.css"],
+      "js": ["dist/js/kwapprepoexamplepublic.js"]
+    }
+  },
+  "repository": "https://github.com/Kitchen-JS/KW-App-Repo-Example-Public",
+  "keywords": [
+    "kitchenjs",
+    "kitchen-windows",
+    "app",
+    "example"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
