@@ -31,8 +31,5 @@ Contents of ./dist gets copied to /content/ when consumed
     "kitchen-windows",
     "app",
     "example"
-  ],
-"scripts": {
-    "postinstall": "node ./../../kitchenwindowsapps.js"
-  },
+  ]
 ```
