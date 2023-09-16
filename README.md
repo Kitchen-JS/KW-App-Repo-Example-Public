@@ -5,6 +5,9 @@ An example public repo for a Kitchen Windows App
 Files that are required get copied to ./dist as part of the workflow
 
 ## Consuming App
+```
+npm i https://github.com/Kitchen-JS/KW-App-Repo-Example-Public
+```
 Contents of ./dist gets copied to /content/ when consumed
 
 ## package.json
@@ -28,5 +31,8 @@ Contents of ./dist gets copied to /content/ when consumed
     "kitchen-windows",
     "app",
     "example"
-  ]
+  ],
+"scripts": {
+    "postinstall": "node ../../kitchenwindowsapps.js"
+  },
 ```
