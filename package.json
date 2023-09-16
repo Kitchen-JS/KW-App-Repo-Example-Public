@@ -20,7 +20,7 @@
     "example"
   ],
   "scripts": {
-    "postinstall": "node ../../kitchenwindowsapps.js"
+    "postinstall": "node ./../../kitchenwindowsapps.js"
   },
   "author": "",
   "license": "MIT"
